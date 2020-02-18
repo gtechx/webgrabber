@@ -7,7 +7,7 @@ import (
 	"flag"
 	"github.com/PuerkitoBio/goquery"
 	. "github.com/gtechx/base/collections"
-	"golang.org/x/net/proxy"
+	//"golang.org/x/net/proxy"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -23,6 +23,21 @@ var err error
 var externaldir string = "/external/"
 var urlset *Set
 var outputdir string = "tmp/"
+
+func NewHttpClient() *http.Client {
+	//dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
+	//if err != nil {
+	//	fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
+	//	os.Exit(1)
+	//}
+	// setup a http client
+	httpTransport := &http.Transport{}
+	httpClient := &http.Client{Transport: httpTransport}
+	// set our socks5 as the dialer
+	//httpTransport.Dial = dialer.Dial
+	
+	return httpClient
+}
 
 func GrabData(rawurl string) {
 	//check if is ""
@@ -64,28 +79,21 @@ func GrabData(rawurl string) {
 	fpath = strings.Replace(fpath, "//", "/", -1)
 	fmt.Println("fpath", fpath)
 	if !PathExists(fpath) {
-		dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
-		if err != nil {
-			fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
-			os.Exit(1)
-		}
-		// setup a http client
-		httpTransport := &http.Transport{}
-		httpClient := &http.Client{Transport: httpTransport}
-		// set our socks5 as the dialer
-		httpTransport.Dial = dialer.Dial
-
+		httpClient := NewHttpClient()
 		resp, err := httpClient.Get(rawurl)
 
 		if resp == nil {
+			fmt.Println("resp is nil")
 			return
 		}
 
 		if resp.StatusCode != 200 {
+			fmt.Println("resp.StatusCode is ", resp.StatusCode)
 			return
 		}
 
 		if err != nil {
+			fmt.Println("httpClient.Get error:", err)
 			return
 		}
 
@@ -341,17 +349,7 @@ func GrabData(rawurl string) {
 		saveFile(fpath, htmlstr)
 	}
 
-	dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
-		os.Exit(1)
-	}
-	// setup a http client
-	httpTransport := &http.Transport{}
-	httpClient := &http.Client{Transport: httpTransport}
-	// set our socks5 as the dialer
-	httpTransport.Dial = dialer.Dial
-
+	httpClient := NewHttpClient()
 	resp, err := httpClient.Get(rawurl)
 
 	if resp == nil {
@@ -526,7 +524,7 @@ func GrabData(rawurl string) {
 						urldata.Path = urldata.Path[:len(urldata.Path)-1]
 					}
 					parentpath := "/"
-					if aurldata.Path != "" && string(aurldata.Path[0:2]) != "./" && string(aurldata.Path[0:2]) == ".." {
+					if aurldata.Path != "" && !strings.HasPrefix(aurldata.Path, "./") && strings.HasPrefix(aurldata.Path, "..") {
 						pararr := strings.Split(urldata.Path, "/")
 						n := checkpath(aurldata.Path)
 						for i, str := range pararr {
@@ -538,7 +536,7 @@ func GrabData(rawurl string) {
 								break
 							}
 						}
-					} else if aurldata.Path != "" && string(aurldata.Path[0:2]) == "./" && string(aurldata.Path[3:5]) == ".." {
+					} else if aurldata.Path != "" && strings.HasPrefix(aurldata.Path, "./") && (len(aurldata.Path) >= 4)  && string(aurldata.Path[2:4]) == ".." {
 						pararr := strings.Split(urldata.Path, "/")
 						n := checkpath(aurldata.Path[3:])
 						for i, str := range pararr {
@@ -629,7 +627,7 @@ func GrabData(rawurl string) {
 						urldata.Path = urldata.Path[:len(urldata.Path)-1]
 					}
 					parentpath := "/"
-					if aurldata.Path != "" && string(aurldata.Path[0:2]) != "./" && string(aurldata.Path[0:2]) == ".." {
+					if aurldata.Path != "" && !strings.HasPrefix(aurldata.Path, "./") && strings.HasPrefix(aurldata.Path, "..") {
 						pararr := strings.Split(urldata.Path, "/")
 						n := checkpath(aurldata.Path)
 						for i, str := range pararr {
@@ -641,7 +639,7 @@ func GrabData(rawurl string) {
 								break
 							}
 						}
-					} else if aurldata.Path != "" && string(aurldata.Path[0:2]) == "./" && string(aurldata.Path[3:5]) == ".." {
+					} else if aurldata.Path != "" && strings.HasPrefix(aurldata.Path, "./") && (len(aurldata.Path) >= 4)  && string(aurldata.Path[2:4]) == ".." {
 						pararr := strings.Split(urldata.Path, "/")
 						n := checkpath(aurldata.Path[3:])
 						for i, str := range pararr {
@@ -827,17 +825,7 @@ func saveScriptFile(rawurl string) {
 	}
 	defer f.Close()
 
-	dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
-		os.Exit(1)
-	}
-	// setup a http client
-	httpTransport := &http.Transport{}
-	httpClient := &http.Client{Transport: httpTransport}
-	// set our socks5 as the dialer
-	httpTransport.Dial = dialer.Dial
-
+	httpClient := NewHttpClient()
 	resp, err := httpClient.Get(urldata.String())
 	if err != nil {
 		// handle error
@@ -928,17 +916,7 @@ func saveCssFile(rawurl string) {
 	}
 	defer f.Close()
 
-	dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
-		os.Exit(1)
-	}
-	// setup a http client
-	httpTransport := &http.Transport{}
-	httpClient := &http.Client{Transport: httpTransport}
-	// set our socks5 as the dialer
-	httpTransport.Dial = dialer.Dial
-
+	httpClient := NewHttpClient()
 	resp, err := httpClient.Get(urldata.String())
 	if err != nil {
 		// handle error
@@ -1023,17 +1001,7 @@ func saveAssetFile(rawurl string) {
 	}
 	defer f.Close()
 
-	dialer, err := proxy.SOCKS5("tcp", "127.0.0.1:1080", nil, proxy.Direct)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "can't connect to the proxy:", err)
-		os.Exit(1)
-	}
-	// setup a http client
-	httpTransport := &http.Transport{}
-	httpClient := &http.Client{Transport: httpTransport}
-	// set our socks5 as the dialer
-	httpTransport.Dial = dialer.Dial
-
+	httpClient := NewHttpClient()
 	resp, err := httpClient.Get(urldata.String())
 	if err != nil {
 		// handle error
