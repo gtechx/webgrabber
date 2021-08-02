@@ -1,1 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2021-07-30T08:30:57.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="gtGhDc-0qcLYot74FJ2c" version="14.9.2" type="github"><diagram id="1v4-q3JJ3BF3rLonqGm6" name="Page-1">7Vxbc+I2FP41zKQP7Fi+YHgMuTTbzs5kJtvZ7qODBdbUWK4RCeyvr2RJvshmnVKMBdVLgo6lY+vo+845lg6MnLv17tcsSKMvOITxyLbC3ci5H9m2bU1s+o9J9lwCrNmUS1YZCoWsFLygH1B2FNItCuGm1pFgHBOU1oULnCRwQWqyIMvwe73bEsf1u6bBCjYEL4sgbkq/oZBEXDq1/VL+BNEqkncGkxm/sg5kZzGTTRSE+L0ich5Gzl2GMeGf1rs7GDPrSbvwcY8HrhYPlsGEfGRARr4mY+CGb+P7p9vfvYfo+bd07E64mrcg3ooZi6cle2mCDG+TEDIt1siZv0eIwJc0WLCr73TVqSwi65i2AP0o1MGMwN3BBwXF9ClwIF5Dku1pFzHAd4XFBGYmU9F+LxfAnnlcFlWMb/uiYyAWfVXoLu1CPwjT/AszgRYrTWJ623las9Xk7y1bzvk6yFYoGTm39KqV7ujf3DQWl48JTvk1t3KNGoyMgxitxLgFNRfMSp3000r8z+/8KgULvE5xQnujZJNSDuBMdqFzfVWHUVmqyqKMzUJyT94QHL73UbOO4ZJUpt3UzfouEWQMZb2+7lN4IU9NURbh8OaXrgdXmMVogqivueWrfp/jYi4wcM/vPMe01zLOPccSMdjOlzghwlMCW7QfgzWKGWGeYPwGmdaT85Kap8ZLMGvyEkysJi9nfdHS1pmWbN1itISGlYaVPbLSqZPSc4cmpashKVFFEKzZcsbN1memY8kSGymuD1EJi9S7vGYHncHna3ECoEmm6rSLfvaFegtwwx65xWWos+Td7Rve5070vm5f407qzsYBLc5m1uJsgNuXt/E09DYFsall6TrEcLPfELi+dOpfKKOvPP77fp2T08ETgOklUHLF9qsMIw0jT8/IYnNwL9+bBybkTENCDp6RP4SIpuNfcLiNqyBs+IGmCs05ZtL0/3uaPgVePU23vaHTdPmioJUPKrgut+ry4wyTE5ic4OSU9JW98+G36YDWZ1ooQQTRgT9gZkhpSNkPKWeWrxsptT7Ret1vUghDQ0hDyH4ICYCnW5i0246zFCPDJLxlpUa09RrjxV/UGGGwifKSGWYZev0xt2teQENbVdNWLAh3iPzJen3yROu7HEM/3++qjX2hjc6SD/I92f5e3Jg2ynF5Sw7ks4Bho/xJWSw6U7zNFvAnNpJei1A8Q9K1EdFc/bbFzWAcEPRWf7i21RXqnjGij126dqWGqDi5kCr4pMSoEiMNRQBYHZr4rBuacrQVk/wPAGw74egdgK7rViA4tj5ZheAADmnjGWaITpfGkgY2B4Mm0A6aU1sBlHckNGfTDkV9I/MDtYOauEZ7MPxZ2uHPO5VrVE+eXMc5L/58nZNledBUVGealNmkzD3s9Sr1X8AfPGNunv/+sYE/iww4hUnT+9fiRGcokFc6Q0EtEpS+v/dIIL2VTpFAwY5jHxkJJrMORX1HguYJp4FcUYjRiTgOzbNAzgVKznAs5Dw1+Tgz5BytC88q2+em/NzkH31+KUStP/eGzj+cttdSbZgp9tANKw0r+yzUdlzdWNn2sq7nZtFQe0Uf3UV3z5atOYpzP3qryJ11KOo7W2urSTboa0torxF+tvKy4KhfFO8bfm0VuAZ+bVnbNcJvaO8nN/wvYXtEw3jLtywGgZx3Ksg1FB2AHAVAsK90S1mHzeEHdpXDzKk4LS8RzDWeFs9aly7Kgx/zZmfe7HooJFYO/YE1eImUa2sdXtyJUw0wrJYFdEWZvKWWs5ww9Hw41z4AhmsMPSeLDs4lRIflzsQHEx/6/zq43/YTDecND80K2jOEB+1feD8cApzzhQAlmfeOPZx1px2Kjg4BtFn+YiLvXv7wpPPwDw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-02T02:13:59.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="S_lT7kfP0PBXuOi7usTH" version="14.9.2" type="github">
+  <diagram id="1v4-q3JJ3BF3rLonqGm6" name="Page-1">
+    <mxGraphModel dx="2062" dy="2323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="770" width="295" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;componentinspector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="170" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;overlifeinspector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="540" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Inspector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="310" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;particlesystem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="747" y="-260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;particlegraph&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ save(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ load()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="20" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EditorModule&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="815" y="310" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;overlifewrap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="540" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;initializerwrap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="907" y="540" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;byspeedwrap&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="540" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-12" target="rtTn-14dv-DHAK5EhPJp-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="940" y="460" as="sourcePoint" />
+            <mxPoint x="1100" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.444;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-11" target="rtTn-14dv-DHAK5EhPJp-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="820" y="450" as="sourcePoint" />
+            <mxPoint x="980" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-26" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-10" target="rtTn-14dv-DHAK5EhPJp-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="460" as="sourcePoint" />
+            <mxPoint x="770" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-27" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;particlecomponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addmodule(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ removemodule()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ render()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="170" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-27" target="rtTn-14dv-DHAK5EhPJp-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="320" as="sourcePoint" />
+            <mxPoint x="690" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-29" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-8" target="rtTn-14dv-DHAK5EhPJp-27" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="570" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;initializerinspector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="550" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;byspeedinspector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="434" y="550" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-2" target="rtTn-14dv-DHAK5EhPJp-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-35" target="rtTn-14dv-DHAK5EhPJp-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+            <mxPoint x="270" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-36" target="rtTn-14dv-DHAK5EhPJp-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-40" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-2" target="rtTn-14dv-DHAK5EhPJp-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-41" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;particle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="747" y="-380" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-42" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.456;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-5" target="rtTn-14dv-DHAK5EhPJp-41" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-200" y="-340" as="sourcePoint" />
+            <mxPoint x="-40" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-43" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;particlefx&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="-120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rtTn-14dv-DHAK5EhPJp-44" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rtTn-14dv-DHAK5EhPJp-5" target="rtTn-14dv-DHAK5EhPJp-43" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-210" y="-380" as="sourcePoint" />
+            <mxPoint x="-50" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IxoNGBiL0sOaZmvlDB4-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtTn-14dv-DHAK5EhPJp-1" target="rtTn-14dv-DHAK5EhPJp-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="910" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IxoNGBiL0sOaZmvlDB4-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtTn-14dv-DHAK5EhPJp-1" target="rtTn-14dv-DHAK5EhPJp-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="910" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
